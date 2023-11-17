@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stoichy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+
+      body{
+           background-image: url('/static/dong.png');
+         }
+      h1{
+        color: rgb(50,50,50); 
+        font-family : Trebuchet MS, Tahoma, Verdana;
+      }
+
+      h2{
+        color: rgb(100,100,100);
+      }
+
+       </style>
+  </head>
+  <body>
+    {% include 'nav.html' %}
+
+    <div class="container">
+      <h1 class="text-center mt-2 mb-4">
+        Artists
+      </h1>
+      <div class="row" style="margin-bottom:32px">
+        <div class="col-md-6">
+      <p class="lead">
+        Welcome to the artists page! Here you can view artists and their songs.
+      </p>
+        </div>
+
+      
+    {% include 'footer.html' %}
+  </body>
+</html>
